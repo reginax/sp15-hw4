@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   # The controller for users.  Makes an implicit call to render "views/users/method_name.html.erb" at the end of every method.
-
+  
   def index
     @users = User.all # Get's all the Users in our database and assigns it the the instance variable @user.
   end

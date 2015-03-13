@@ -1,0 +1,13 @@
+<h1> Dogs </h1>
+	<table>
+	   <tr>
+	      <td>Dog name: </td>
+	      <td>Age: </td>
+	   </tr>
+	   	<tr>
+	   	<% @dogs.each do |dog| %>
+	      <td><%= dog.name %></td>
+	      <td><%= dog.age %></td>
+	   </tr>
+	   <% end %>
+	</table>
